@@ -1,0 +1,168 @@
+.featured {
+  height: 310px;
+  background-color: black;
+  position: relative;
+  background-image: url("img/issue-1.jpg");
+  background-size: cover;
+}
+
+.count {
+  position: absolute;
+  top: 30px;
+  right: 26px;
+  animation: slidedown 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+}
+
+.text__area {
+  position: absolute;
+  bottom: 36px;
+  left: 24px;
+}
+
+.text__area .title {
+  animation: showtext 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.text__area .desc {
+  animation: showtext 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+}
+
+.featured .title {
+  margin-bottom: 12px;
+}
+
+sup {
+  font-size: 10px;
+}
+
+.swiper {
+  white-space: nowrap;
+  overflow-x: scroll;
+  padding: 24px;
+  padding-bottom: 7px;
+}
+
+.swiper li {
+  width: 136px;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.swiper li:nth-child(1) {
+  background-image: url("img/issue-2.jpg");
+  animation: slideleft 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+}
+
+.swiper li:nth-child(2) {
+  background-image: url("img/issue-3.jpg");
+  animation: slideleft 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.4s;
+  animation-fill-mode: both;
+}
+
+.swiper li:nth-child(3) {
+  background-image: url("img/issue-4.jpg");
+  animation: slideleft 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.6s;
+  animation-fill-mode: both;
+}
+
+.swiper li:nth-child(4) {
+  background-image: url("img/issue-5.jpg");
+  animation: slideleft 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.8s;
+  animation-fill-mode: both;
+}
+
+.swiper li:nth-child(5) {
+  background-image: url("img/issue-6.jpg");
+  animation: slideleft 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+.swiper li:nth-child(6) {
+  background-image: url("img/issue-7.jpg");
+  animation: slideleft 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 1.2s;
+  animation-fill-mode: both;
+}
+
+.swiper li:hover {
+  background-size: 120%;
+}
+
+.item {
+  padding: 17px 24px 20px 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+}
+
+/* 리스트 시작 */
+.item .num {
+  width: 26px;
+  height: 26px;
+  background-color: #ffe6cf;
+  color: #485762;
+  border-radius: 50%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+/* 리스트설명 */
+
+.ani1 {
+  animation: slideup 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+}
+
+.ani2 {
+  animation: slideup 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.4s;
+  animation-fill-mode: both;
+}
+
+.ani3 {
+  animation: slideup 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+
+.item .infos {
+}
+
+.item .title {
+  font-size: 17px;
+}
+
+.item .desc {
+  font-size: 13px;
+  opacity: 0.7;
+}

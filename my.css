@@ -1,0 +1,133 @@
+header {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.thumb {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1),
+    0px 12px 24px 0 rgba(0, 0, 0, 0.24);
+  animation: fadein 0.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.thumb-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.badge {
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+  position: absolute;
+  background-color: #ff5500;
+  border-radius: 50%;
+  top: 0;
+  right: -4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: slidedown 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.4s;
+  animation-fill-mode: both;
+}
+
+.hi {
+  margin-bottom: 10px;
+  animation: showtext 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.desc {
+  animation: showtext 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+}
+
+.email {
+  margin-top: 18px;
+  padding: 8px 22px 10px 22px;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: inline-block;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  animation: showtext 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.4s;
+  animation-fill-mode: both;
+}
+
+/* 리스트 */
+
+/* 리스트 애니메이션 */
+.list li:nth-child(1) {
+  animation: slideleft 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.list li:nth-child(2) {
+  animation: slideleft 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+}
+
+.list li:nth-child(3) {
+  animation: slideleft 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.4s;
+  animation-fill-mode: both;
+}
+
+.list li:nth-child(4) {
+  animation: slideleft 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.6s;
+  animation-fill-mode: both;
+}
+
+.list {
+  margin-top: 48px;
+}
+
+.list .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 15px;
+}
+
+.list .item .left .name {
+  margin-left: 6px;
+}
+
+.list .item .left {
+  display: flex;
+  align-items: center;
+}
+
+.list .item img {
+  padding: 20px 22px;
+}
+
+.list .itme .right {
+  opacity: 0.5;
+}
+
+.list .itme .right img {
+  padding-right: 14px;
+}

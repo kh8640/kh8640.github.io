@@ -1,0 +1,65 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  animation: fadein 0.5s;
+  animation-fill-mode: both;
+}
+
+.modal-warpper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumb2 {
+  height: 234px;
+  background-image: url("img/issue-5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.modal-inner {
+  width: calc(100% - 48px);
+  background-color: #485861;
+  border-radius: 12px;
+  overflow: hidden;
+  animation: popup 0.3s;
+  animation-timing-function: ease-out;
+}
+
+.bottom-info {
+  height: 212px;
+  padding: 24px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.bottom-info .title {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.bottom-info .descr {
+  margin-top: 4px;
+  line-height: 19px;
+  font-size: 12px;
+}
+
+.bottom-info button {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: 1px solid rgba(255, 230, 207, 0.3);
+  border-radius: 4px;
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+}
